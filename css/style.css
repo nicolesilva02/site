@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 235, 205);
+}
+
+
+/* seletor usando Classe */
+
+.azul {
+    color: rgba(167, 191, 255, 0.89);
+}
+
+
+/* seletor usando ID */
+
+
+/* ID so pode usar uma vez */
+
+#verde {
+    color: rgb(76, 202, 83)
+}
+
+a {
+    color: rgb(13, 168, 173)
+}
+
+p {
+    color: rgb(243, 165, 21)
+}
+
+menu {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(255, 228, 196);
+    text-align: center;
+    margin: 15px;
+}
+
+.btn {
+    width: 300px;
+    height: 204px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+a.color-btn {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(151, 84, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a.color-btn:hover {
+    background-color: blueviolet;
+}
+
+.quadrados {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+.quadrados .prodInicial {
+    width: 360px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #fafafa80;
+    box-shadow: 0px 0px 8px #24242440;
+}
+
+.quadrados .prodInicial .foto {
+    width: 100%;
+    max-height: 216px;
+    overflow: hidden;
+}
+
+.quadrados .prodInicial .foto img {
+    width: 100%;
+}
+
+.topo {
+    width: 100%;
+    height: 64px;
+    background-color: darkturquoise;
+}
+
+a {
+    margin: 16px;
+}
+
+
+/*Rodapé*/
+
+footer {
+    width: 100%;
+    background-color: rgb(250, 34, 210);
+}
+
+.icone {
+    justify-content: center;
+    align-items: center;
+}
